@@ -1,0 +1,44 @@
+* {
+  text-transform: capitalize;
+  font-family: "Space Grotesk", sans-serif;
+}
+
+.nav-items a {
+  text-decoration: none;
+  margin-right: 20px;
+  color: black;
+  font-size: 20px;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  margin: 30px;
+  align-items: center;
+}
+
+.nav-btn {
+  border: 1px solid blue;
+  border-radius: 20px;
+  padding: 5px 20px 5px 20px;
+  font-size: 16px;
+  background-color: white;
+  cursor: pointer;
+}
+
+.hero-btn {
+    border-radius: 200px;
+    padding: 10px 60px 10px 60px ;
+    font-size: 16px;
+    background-color: blue;
+    cursor: pointer;
+}
+
+.hero{
+    display: flex;
+    column-gap: 50px;
+    margin: 30px 20px;
+    align-items: center;
+    
+}
+
